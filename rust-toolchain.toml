@@ -1,0 +1,8 @@
+[toolchain]
+channel = "stable"
+profile = "default"
+components = [
+  "rust-src",
+  "rustfmt"
+]
+targets = [ "thumbv6m-none-eabi" ]
